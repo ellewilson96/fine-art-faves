@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "/api/v1/paintings", to: "get_paintings#paintings"
+  get "/api/v1/paintings", to: "get_painting#painting"
 
 
 	namespace :api do

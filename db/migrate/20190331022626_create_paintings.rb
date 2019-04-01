@@ -3,7 +3,7 @@ class CreatePaintings < ActiveRecord::Migration[5.2]
     create_table :paintings do |t|
       t.string :image
       t.string :title
-      t.string :author
+      t.string :artist
       t.string :date
 
       t.timestamps
