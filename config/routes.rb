@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  get "/api/v1/paintings", to: "get_painting#painting"
+
+  get "/api/v1/paintings", to: "get_paintings#paintings"
+  root to: 'application#home'
+
 
 
 	namespace :api do

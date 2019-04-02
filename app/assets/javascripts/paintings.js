@@ -10,7 +10,7 @@ function getPaintings(e) {
         const id = painting.id
         const paintingHtml = `
         <div class="painting-object">
-          <img src="${painting.primaryImage}"><br>
+          <img src="${painting.image}"><br>
           <h1>${painting.title}</h1>
         </div>
         `
